@@ -1,2 +1,8 @@
 # git Basic Tutorials 
-> 참조 [생활코딩_git_강좌](https://www.youtube.com/playlist?list=PLuHgQVnccGMCNJESahrVV-uYGMNYK_vMf)
+
+## 깃(Git)이란 무엇인가?
+> 깃(git)은 소프트웨어 소스의 변화를 끊임없이 추적하는 버전 관리 툴의 일종 
+> 기존의 중앙 저장소 개념을 탈피해서 독립적인 관리가 가능하다는 특징이 있는 버전 관리 툴이다. 
+> 깃(Git)은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. [위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
+
+
