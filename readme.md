@@ -1,13 +1,13 @@
 # git Basic Tutorials 
 
-## 깃(Git)이란 무엇인가?
+## 1. 깃(Git)이란 무엇인가?
 - THE INFORMATION MANAGER FROM HELL
 - 깃(git)은 소프트웨어 소스의 변화를 끊임없이 추적하는 버전 관리 툴의 일종 
 - 기존의 중앙 저장소 개념을 탈피해서 독립적인 관리가 가능하다는 특징이 있는 버전 관리 툴이다. 
 - 깃(Git)은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다. 
 [위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4))
 
-## git의 세가지 목적 
+## 2. git의 세가지 목적 
 - 버전(Version)관리
     - 버전 관리란 소스의 특정 시점을 시간에 따라 기록 하는 것을 말한다.
     - 각각의 버전을 따라서 파일을 이전 상태로 돌릴 수 있으며, 프로젝트를 통째로 돌리는 것도 가능하다. 
@@ -21,4 +21,12 @@
     - 원격 저장소 (예)github)를 이용한 push/pull을 통해서 협업을 도움
     - git에서는 같은 버전의 소스가 작업될 때, 소스 덮어씌우기 같은 문제를 처리하면서 이른바 협업에서의 교통정리를 맡는다.
 
-## git CLI(Command Line Interface)
+## 3. git CLI(Command Line Interface)
+- git CLI를 쓰는 이유
+    - 모든 git 기반의 프로그램들은 CLI를 기반으로 만들어져 있다. 
+    - GUI 기반의 프로그램들을 사용할 수 없는 경우에도 CLI를 사용할 수가 있다.
+    - 터미널에 명령어를 사용하므로써 동시적인 작업이 가능하며, 반복패턴의 자동화가 가능하다. 
+
+- Working Tree / Staging Area / Repository / Remote Repository
+![이해](./image/1.png)
+
