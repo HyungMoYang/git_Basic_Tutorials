@@ -20,3 +20,5 @@
 - 협업(Collaborate)
     - 원격 저장소 (예)github)를 이용한 push/pull을 통해서 협업을 도움
     - git에서는 같은 버전의 소스가 작업될 때, 소스 덮어씌우기 같은 문제를 처리하면서 이른바 협업에서의 교통정리를 맡는다.
+
+## git CLI(Command Line Interface)
