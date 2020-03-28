@@ -22,13 +22,24 @@
     - git에서는 같은 버전의 소스가 작업될 때, 소스 덮어씌우기 같은 문제를 처리하면서 이른바 협업에서의 교통정리를 맡는다.
 
 ## 3. git CLI(Command Line Interface)
-- git CLI를 쓰는 이유
+### git CLI를 쓰는 이유
     - 모든 git 기반의 프로그램들은 CLI를 기반으로 만들어져 있다. 
     - GUI 기반의 프로그램들을 사용할 수 없는 경우에도 CLI를 사용할 수가 있다.
     - 터미널에 명령어를 사용하므로써 동시적인 작업이 가능하며, 반복패턴의 자동화가 가능하다. 
 
-- Working Tree / Staging Area / Repository / Remote Repository의 이해
+### Working Tree / Staging Area / Repository / Remote Repository의 이해
 ![이해](./image/1.png)
+- Working Tree (Working Directory)
+    - 현재 작업하고 있는 상태 또는 공간을 말한다. 
+    - 단순히 local repository를 뜻하는 것이 아니라 사용자가 작업하고 있는 상태를 말함.
+- Staging Area
+    - Working Tree에서 작업한 내용이 버전 관리가 들어가는 곳 
+    - git add로 추가된 작업 내용은 이 시점부터 작업이 추적(tracking)된다
+- Local Repository
+    - 작업자의 개인 PC라고 보면됨. 
+    - 버전 관리가 되어 추적되고 있던 소스코드들이 commit 명령을 통해서 버전이 되는 곳
+- Remote Repository
+    - github와 같이 원격 저장소를 뜻한다. 
 
 ### 1) git init
     - Initialize repository
@@ -39,7 +50,7 @@
     - 작업하고 있는 working tree의 상태를 보여준다.
     - working tree status
 
-### 3) git add <filename>
+### 3) git add 'filename'
     - working tree에서 작업하고 있는 file을 버전 관리를 하기 위해 Staging Area에 올린다. 
     - add to staging area
 
