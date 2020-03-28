@@ -27,6 +27,21 @@
     - GUI 기반의 프로그램들을 사용할 수 없는 경우에도 CLI를 사용할 수가 있다.
     - 터미널에 명령어를 사용하므로써 동시적인 작업이 가능하며, 반복패턴의 자동화가 가능하다. 
 
-- Working Tree / Staging Area / Repository / Remote Repository
+- Working Tree / Staging Area / Repository / Remote Repository의 이해
 ![이해](./image/1.png)
+- working Tree
+
+
+- 1) git init
+    - Initialize repository
+    - 버전 관리가 필요한 폴더를 초기화 시키는 명령 
+    - .git : git repository
+
+- 2) git status
+    - 작업하고 있는 working tree의 상태를 보여준다.
+    - working tree status
+
+- 3) git add <filename>
+    - working tree에서 작업하고 있는 file을 버전 관리를 하기 위해 Staging Area에 올린다. 
+    - add to staging area
 
