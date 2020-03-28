@@ -29,19 +29,17 @@
 
 - Working Tree / Staging Area / Repository / Remote Repository의 이해
 ![이해](./image/1.png)
-- working Tree
 
-
-- 1) git init
+### 1) git init
     - Initialize repository
     - 버전 관리가 필요한 폴더를 초기화 시키는 명령 
     - .git : git repository
 
-- 2) git status
+### 2) git status
     - 작업하고 있는 working tree의 상태를 보여준다.
     - working tree status
 
-- 3) git add <filename>
+### 3) git add <filename>
     - working tree에서 작업하고 있는 file을 버전 관리를 하기 위해 Staging Area에 올린다. 
     - add to staging area
 
