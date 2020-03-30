@@ -54,3 +54,12 @@
     - working tree에서 작업하고 있는 file을 버전 관리를 하기 위해 Staging Area에 올린다. 
     - add to staging area
 
+### 4) git log
+    - show version
+    - 지금까지 버전의 history를 볼 수 있다.
+    - git log --stat
+    
+### 5) git commit
+    - create version
+    - Staging Area에 올라간 파일을 실제로 Local Repo로 올리면서 버전을 생성한다. 
+
