@@ -57,9 +57,16 @@
 ### 4) git log
     - show version
     - 지금까지 버전의 history를 볼 수 있다.
+    - 옵션들
     - git log --stat
+    - git log -p
     
 ### 5) git commit
     - create version
     - Staging Area에 올라간 파일을 실제로 Local Repo로 올리면서 버전을 생성한다. 
+
+### 6) git diff 
+    - Show changes
+    - 소스의 변경점을 볼 수 있다.
+    
 
