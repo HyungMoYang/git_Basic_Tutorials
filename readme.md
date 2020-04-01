@@ -53,6 +53,7 @@
 ### 3) git add 'filename'
     - working tree에서 작업하고 있는 file을 버전 관리를 하기 위해 Staging Area에 올린다. 
     - add to staging area
+    - git add . 명령을 통해서 현재 디렉토리의 모든 소스를 Staging Area로 보낼 수 있다. 
 
 ### 4) git log
     - show version
@@ -64,9 +65,18 @@
 ### 5) git commit
     - create version
     - Staging Area에 올라간 파일을 실제로 Local Repo로 올리면서 버전을 생성한다. 
+    - git commit -m "~~~"
+    - git commit -am "~~~"
 
 ### 6) git diff 
     - Show changes
     - 소스의 변경점을 볼 수 있다.
-    
+
+### 7) git checkout 'commit ID'
+    - 해당 commit ID의 시점으로 돌아가는 명령
+
+### 8) git reset 
+    - git reset --hard 'commit ID' : 해당 commit ID의 시점으로 돌아가면서 현재 working tree의 내용은 물론 'commit ID'의 시점 이후의 모든 커밋을 삭제한다. 
+
+
 
